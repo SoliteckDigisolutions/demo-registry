@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "my-demo-registry",
-  "homepage": "https://github.com/your-username/my-demo-registry",
+  "name": "demo-registry",
+  "homepage": "https://github.com/SoliteckDigisolutions/demo-registry",
   "items": [
     {
       "name": "magic-button",
@@ -11,6 +11,17 @@
       "files": [
         {
           "path": "components/magic-button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "balance-card",
+      "type": "registry:ui",
+      "title": "Balance Card",
+      "files": [
+        {
+          "path": "components/balance-card.tsx",
           "type": "registry:ui"
         }
       ]
